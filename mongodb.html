@@ -1,10 +1,5 @@
-<!doctype html>
-<html dir="ltr" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>mongoDB</title>
-</head>
-  
+<!DOCTYPE html>
+<html>
 <style>
 .tooltip {
   position: relative;
@@ -20,99 +15,41 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-
+  
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 </style>
-
-</head>
-<body>
-<div>
-  <a href="#">Useless Link</a>
-  <ul>
-    <li>
-      <a href="#">Dropdown Link</a>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-  <div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+<body style="text-align:center;">
  
-<p class="video-author" style="margin-bottom: 4px; font-size: 12px;">
-    MongoDB University 
-    <span
-    style="margin-bottom: 4px; 
-    font-size: 12px;">
-    &#183; Completed 7 courses related to Database Administration:
-    <div>
-        M001
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            MongoDB Basics
-        </span>
-    </div>
-    , 
-    <div>
-        M103
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            Basic Cluster Administration
-        </span>
-    </div>
-    , 
-    <div>
-        M121
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            The MongoDB Aggregation Framework
-        </span>
-    </div>
-    , 
-    <div>
-        M150
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            Authentication & Authorization
-        </span>
-    </div>
-    , 
-    <div>
-        M201
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            MongoDB Performance
-        </span>
-    </div>
-    , 
-    <div>
-        M320
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            Data Modeling
-        </span>
-    </div>
-    and 
-    <div>
-        M312
-        <span class="hovertext" data-hover="Hello, this is the tooltip">
-            Diagnostics and Debugging
-        </span>
-    </div>
-    .
-</span>
-</p>
-  
-  <span class="hovertext" data-hover="Hello, this is the tooltip">
-    Try hover over me
-  </span>
- 
-  
+<div class="tooltip">M001
+  <span class="tooltiptext">MongoDB Basics</span>
+  </div><p> , </p>
+  <div class="tooltip">M103
+  <span class="tooltiptext">Basic Cluster Administration</span>
+</div>
+  <div class="tooltip">M121
+  <span class="tooltiptext">The MongoDB Aggregation Framework</span>
+</div>
+  <div class="tooltip">M150
+  <span class="tooltiptext">Authentication & Authorization</span>
+</div>
+  <div class="tooltip">M201
+  <span class="tooltiptext">MongoDB Performance</span>
+</div>
+  <div class="tooltip">M320
+  <span class="tooltiptext">Data Modeling</span>
+</div>
+  <div class="tooltip">M312
+  <span class="tooltiptext">Diagnostics and Debugging</span>
+</div>
 </body>
 </html>
