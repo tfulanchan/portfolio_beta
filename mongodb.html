@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>mongoDB</title>
 </head>
-    <script src="dark-mode.js"></script>
+<link rel='stylesheet' href='/dark-mode.css' type='text/css' media='all' />
+
 <style>
-  <link rel='stylesheet' id='css-tricks-style-css'  href='dark-mode.css' type='text/css' media='all' />
   .hovertext {
   position: relative;
   border-bottom: 1px dotted black;
@@ -84,11 +84,46 @@ ul li ul li {
 }
 ul li ul li a {display:block !important;} 
 ul li ul li:hover {background: #666;}
+  
+  body {
+  --text-color: #222;
+  --bkg-color: #fff;
+}
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+  body.light-theme {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p {
+  color: var(--text-color);
+}
+  
 </style>
 </head>
 <body>
-
-  <button class="btn-toggle">Toggle Dark-Mode</button>
+    <script src="dark-mode.js">
+  <button class="btn-toggle">Toggle Dark-Mode</button></script>
   
 <div>
   <a href="#">Useless Link</a>
