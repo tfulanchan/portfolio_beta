@@ -28,6 +28,31 @@
 		.text-body-small{font-weight:var(--font-weight-regular)}
 		.text-body-small,.text-body-small-bold{font-size:var(--font-size-small);line-height:var(--line-height-default)}
 		.text-body-small-bold{font-weight:var(--font-weight-bold)}
+		.tooltip {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.tooltip .tooltiptext {
+		  visibility: hidden;
+		  width: 120px;
+		  background-color: black;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 6px;
+		  padding: 5px 0;
+
+		  /* Position the tooltip */
+		  position: absolute;
+		  z-index: 1;
+		  top: 100%;
+		  left: 50%;
+		  margin-left: -60px;
+		}
+
+		.tooltip:hover .tooltiptext {
+		  visibility: visible;
+		}
         </style>
     </head>
     
@@ -106,7 +131,28 @@
 			<span
 			      style="margin-bottom: 4px; 
 				     font-size: 12px;">
-				&#183; Completed 7 courses related to Database Administration: M001, M103, M121, M150, M201, M320 and M312.
+				&#183; Completed 7 courses related to Database Administration:
+				    <div class="tooltip">M001, 
+  <span class="tooltiptext">MongoDB Basics</span>
+  </div>
+  <div class="tooltip">M103, 
+  <span class="tooltiptext">Basic Cluster Administration</span>
+</div>
+  <div class="tooltip">M121, 
+  <span class="tooltiptext">The MongoDB Aggregation Framework</span>
+</div>
+  <div class="tooltip">M150, 
+  <span class="tooltiptext">Authentication & Authorization</span>
+</div>
+  <div class="tooltip">M201, 
+  <span class="tooltiptext">MongoDB Performance</span>
+</div>
+  <div class="tooltip">M320, 
+  <span class="tooltiptext">Data Modeling</span>
+</div>
+  <div class="tooltip">and M312
+  <span class="tooltiptext">Diagnostics and Debugging</span>
+</div>.
 			</span>
             </p>
             <p class="video-stats" 
