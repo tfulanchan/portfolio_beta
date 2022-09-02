@@ -41,6 +41,10 @@
 		.text-body-small{font-weight:var(--font-weight-regular)}
 		.text-body-small,.text-body-small-bold{font-size:var(--font-size-small);line-height:var(--line-height-default)}
 		.text-body-small-bold{font-weight:var(--font-weight-bold)}
+		.breadcrumb li {
+		  display: inline;
+		  .breadcrumb li+li::before:  “>”;
+		}
         </style>
     </head>
     
@@ -51,6 +55,18 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->	
 	    <br/>
+	    
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Courses Completed</a></li>
+          <li><a href="#">Certifications</a></li>
+	<li><a href="#">Achievements</a></li>
+          <li><a href="#">Contact</a></li>	
+        </ul>
+      </div>
+	    
     <div style="text-align:center;
 		display: grid;
                 grid-template-columns: 0.1fr 1fr 0.5fr 1fr;">
