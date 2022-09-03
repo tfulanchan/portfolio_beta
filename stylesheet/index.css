@@ -41,10 +41,9 @@
 
 .button {
 	display: inline-block; 
-	font-size: 12px; 
-	height: 32px; width: 123px; 
-	padding: 4px 10px;  
-	margin: 0px 16px 0px 0px;
+	font-size: 14px; 
+	padding: 8px 16px;  
+	margin: 0px 24px 0px 0px;
 	transition: ease-in; 
 	border: rounded;
 }
