@@ -25,11 +25,19 @@
           scrollbar-color: rebeccapurple green;
           scrollbar-width: thin;
         }
+        
+        @media print { .navigation{ display: none; } }
 
     </style>
     </head>
     
     <body class="scroller">
+        <nav>
+          <a href="/html/">HTML</a> |
+          <a href="/css/">CSS</a> |
+          <a href="/js/">JavaScript</a> |
+          <a href="/python/">Python</a>
+        </nav>
         <h1 style="padding-top: 6pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">  
             <a href="https://chanhen.netlify.app/resume">
               Henry Chan
