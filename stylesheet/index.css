@@ -38,3 +38,13 @@
 	font-family: 'Cuprum'; 
 	font-weight: bold;
 }
+
+.button {
+	display: inline-block; 
+	font-size: 12px; 
+	height: 32px; width: 123px; 
+	padding: 4px 10px;  
+	margin: 0px 16px 0px 0px;
+	transition: ease-in; 
+	border: rounded;
+}
