@@ -1,0 +1,22 @@
+       * {margin:0; padding:0; text-indent:0; }
+        h1 { color: black; font-family:Calibri, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 13pt; }
+        .s1 { color: black; font-family:Calibri, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+        .s2 { color: black; font-family:Calibri, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+        .s3 { color: #1154CC; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: underline; font-size: 9pt; }
+        h3 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 9pt; }
+        .s4 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; }
+        .a, a { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 10pt; }
+        h2 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 10pt; }
+        .s5 { color: #606060; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 9pt; }
+        p { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; margin:0pt; }
+        li {display: block; }
+        #l1 {padding-left: 0pt; }
+        #l1> li>*:first-child:before {content: "● "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+        #l2 {padding-left: 0pt; }
+        #l2> li>*:first-child:before {content: "■ "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+        .scroller {
+          overflow-y: scroll;
+          scrollbar-color: rebeccapurple green;
+          scrollbar-width: thin;
+        }
+        
