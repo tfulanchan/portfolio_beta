@@ -1,6 +1,8 @@
 # portfolio_beta
 A Web Application which demonstrates my development skills
 
-Some designs are atrributed to:
+References:
+
+https://css-tricks.com/
 
 https://codepen.io/jstn/pen/mdoOZJ
