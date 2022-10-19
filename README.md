@@ -1,6 +1,6 @@
 # portfolio_beta
 
-A Web Application which demonstrates my development skills.
+Demonstration of technical capability.
 
 References:
 
